@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  background: linear-gradient(to bottom, #4a2b99, #2c1149);
   background-color: #101010;
   background-image: url('../../images/Dashboard/background-mob.png');
   background-repeat: no-repeat;
