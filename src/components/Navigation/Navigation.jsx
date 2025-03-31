@@ -1,11 +1,12 @@
 import { NavLink } from 'react-router-dom';
-import icons from '../../images/icons/sprite.svg';
 import s from './Navigation.module.css';
 import clsx from 'clsx';
 import { useMedia } from '../../hooks/useMedia';
 import { MdHome } from 'react-icons/md';
 import { SlGraph } from 'react-icons/sl';
 import { FaDollarSign } from 'react-icons/fa6';
+// eslint-disable-next-line no-unused-vars
+import icons from '../../images/icons/sprite.svg';
 
 const buildLinkClass = ({ isActive }) => {
   return clsx(s.link, isActive && s.active);

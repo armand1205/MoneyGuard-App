@@ -7,10 +7,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import ReactDatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
 import { selectCategories } from '../../redux/transactions/selectors';
-import {
-  getTransactionId,
-  getTransactionCategory,
-} from '../../constants/TransactionConstants';
+import { getTransactionCategory } from '../../constants/TransactionConstants';
 import { editTrnThunk } from '../../redux/transactions/operations';
 import { getBalanceThunk } from '../../redux/auth/operations';
 import { FiCalendar } from 'react-icons/fi';
@@ -21,11 +18,14 @@ import { useMedia } from 'hooks';
 import Modal from 'components/Modal/Modal';
 import { editValidationSchema } from 'helpers/editValidationSchema';
 
+// eslint-disable-next-line no-unused-vars
+import { getTransactionId } from 'redux/transactions/selectors';
+
 const EditModal = ({ closeModal, item }) => {
+  // eslint-disable-next-line no-unused-vars
   const [isOnIncomeTab, setIsOnIncomeTab] = useState(
     item.type === 'EXPENSE' ? false : true
   );
-  useEffect(() => {}, [isOnIncomeTab]);
   const categories = useSelector(selectCategories);
   const { isTablet } = useMedia();
   const dispatch = useDispatch();
