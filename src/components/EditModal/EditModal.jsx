@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import { useEffect, useState } from 'react';
 import s from './EditModal.module.css';
 import FormButton from '../common/FormButton/FormButton';
