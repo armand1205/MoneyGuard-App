@@ -1,15 +1,46 @@
-@import-normalize; /* bring in normalize.css styles */
+@import url('./css/reset.css');
+@import url('./css/fonts.css');
+@import url('./css/datePickerStyles.css');
+:root {
+  --yellow: #ffb627;
+  --icon-violet: #734aef;
+  --white: #fbfbfb;
+  --white-40: rgba(255, 255, 255, 0.4);
+  --white-60: rgba(255, 255, 255, 0.6);
+  --text-button: #623f8b;
+  --dashboard-text: #ff868d;
+  --form-color: rgba(255, 255, 255, 0.1);
+  --background: #101010;
 
+  --font-family: 'Poppins', sans-serif;
+  --second-family: 'Circe', sans-serif;
+}
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: var(--font-family);
+  color: var(--white);
+  background-color: #623f8b;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  color: var(--white) !important;
+  transition: background-color 5000s ease-in-out 0s;
+  -webkit-text-fill-color: var(--white) !important;
+}
+input {
+  outline: none;
+}
+input:focus {
+  border-bottom: 1px solid var(--white-60);
 }
