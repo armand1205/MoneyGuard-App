@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkmoney_guard_app=self.webpackChunkmoney_guard_app||[]).push([[428],{4428:(a,e,i)=>{i.r(e),i.d(e,{default:()=>t});var p=i(5366),n=i(9065),s=i(579);const t=()=>(0,s.jsx)(n.P.div,{initial:{opacity:0},animate:{opacity:1},children:(0,s.jsx)(p.Sj,{})})}}]);
+//# sourceMappingURL=428.a5895560.chunk.js.map
