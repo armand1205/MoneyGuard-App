@@ -18,9 +18,6 @@
   transition: all 0.5s ease 0s;
 }
 
-/* Variant styles: 1) Multi color button, 2) White button, 3) btn_delete */
-
-/* 1) Multi color button */
 .multiColorButtton {
   color: rgba(251, 251, 251, 1);
   background: linear-gradient(

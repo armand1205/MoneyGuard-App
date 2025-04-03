@@ -1,11 +1,4 @@
 .wrapper {
-  /* z-index: 10000;
-  position: fixed;
-  inset: 0; */
-  /* top: 60px; */
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
   backdrop-filter: blur(7px);
   background: rgba(34, 13, 91, 0.23);
 }
@@ -18,7 +11,6 @@
 
 .modalContent {
   position: relative;
-  /* border: 2px solid red; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -45,10 +37,7 @@
   flex-direction: column;
   align-items: center;
   gap: 40px;
-  /* padding: 20px; */
-
   width: 100%;
-  /* min-height: calc(100vh - 60px); */
 }
 
 form .formTitle {
@@ -56,7 +45,6 @@ form .formTitle {
   font-size: 24px;
   font-weight: 400;
   line-height: 36px;
-  /* padding-top: 20px; */
 }
 
 form .inputWrapper {
@@ -93,9 +81,6 @@ form .inputWrapper {
   cursor: pointer;
   box-shadow: 0px 4px 60px 0px rgba(0, 0, 0, 0.25);
   background-color: rgba(83, 61, 186, 0.7);
-  /* background-color: rgba(80, 48, 154, 0.7); */
-  /* background-color: rgba(106, 70, 165, 0.52); */
-  /* background-color: rgba(133, 93, 175, 0.13); */
   color: rgba(251, 251, 251, 1);
 }
 .inputField {
@@ -125,7 +110,6 @@ form .inputWrapper {
   position: absolute;
   top: 3em;
   padding-left: 12px;
-  /* padding-left: 20px; */
 }
 
 .inputField.date {
@@ -167,7 +151,6 @@ form .buttonsWrapper {
   gap: 20px;
 }
 
-/* switcher */
 .switcheWrapper {
   display: flex;
   align-items: center;

@@ -28,12 +28,7 @@ const Modal = ({ children, onClose }) => {
       className={s.wrapper}
       onClick={handleBackDropClick}
     >
-      {/* <div className={s.content}> */}
-      {/* <button className={s.closeBtn} onClick={onClose}>
-          ×
-        </button> */}
       {children}
-      {/* </div> */}
     </motion.div>
   );
 };

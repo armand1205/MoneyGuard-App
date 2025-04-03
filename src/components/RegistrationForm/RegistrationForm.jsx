@@ -8,7 +8,6 @@ import { registerValidatSchema } from 'helpers';
 import FormButton from '../common/FormButton/FormButton';
 import { Link } from 'react-router-dom';
 import Logo from '../common/Logo/Logo';
-// import ProgressBar from '../ProgressBar/ProgressBar';
 import InputFormField from 'components/InputFormField/InputFormField';
 import { motion } from 'framer-motion';
 
